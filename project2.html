@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en" webcrx="">
+<head>
+<title>Project2</title>
+<head>
+!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Website designing</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .logo
+{
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.toggle
+{
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: url(https://i.ibb.co/HrfVRcx/menu.png);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: center;
+  cursor: pointer;
+}
+.toggle.active
+{
+  background: url(https://i.ibb.co/rt3HybH/close.png);
+  background-repeat: no-repeat;
+  background-size: 25px;
+  background-position: center;
+  cursor: pointer;
+}
+.showcase
+{
+  position: absolute;
+  right: 0;
+  width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #03a9f4;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+}
+
+.text h2
+{
+  font-size: 5em;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+.social
+{
+  position: absolute;
+  z-index: 10;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social li
+{
+  list-style: none;
+}
+.social li a
+{
+  display: inline-block;
+  margin-right: 20px;
+  filter: invert(1);
+  transform: scale(0.5);
+  transition: 0.5s;
+}
+.social li a:hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+.menu
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu ul
+{
+  position: relative;
+}
+.menu ul li
+{
+  list-style: none;
+}
+.menu ul li a
+{
+  text-decoration: none;
+  font-size: 24px;
+  color: #111;
+}
+.menu ul li a:hover
+{
+  color: #03a9f4; 
+}
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
+</style>
+</head>
+<body>
+<section class="showcase">
+    <header>
+      <h2 class="logo">Travel</h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="video.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Get your internship here </h2> 
+      <a href="#">Explore</a>
+    </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<meta name="description" content="Shadowmap visualizes solar shadows on an interactive 3D web-based map. For any moment in time, anywhere on Earth.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content="@shadowmap_org">
+<meta name="twitter:title" content="Shadowmap"><meta name="twitter:description" content="Shadowmap visualizes solar shadows on an interactive 3D web-based map. For any moment in time, anywhere on Earth.">
+<meta property="og:title" content="Shadowmap"><meta property="og:url" content="https://app.shadowmap.org/"><meta property="og:image" content="https://app.shadowmap.org/img/shadowmap_card_v2.jpg">
+<meta property="og:description" content="Shadowmap visualizes solar shadows on an interactive 3D web-based map. For any moment in time, anywhere on Earth."><link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
+<link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#f5f76e">
+<link rel="shortcut icon" href="/favicon/favicon.ico"><meta name="msapplication-TileColor" content="#2b5797">
+<meta name="msapplication-config" content="/favicon/browserconfig.xml">
+<meta name="theme-color" content="#000000"><meta name="apple-itunes-app" content="app-id=1566789060">
+<meta name="next-head-count" content="25"><link rel="preload" href="/_next/static/css/000b497ed5ee3652.css" as="style"><link rel="stylesheet" href="/_next/static/css/000b497ed5ee3652.css" data-n-g="">
+</style>
+<span id="cookieconsent:desc" class="cc-message">We use cookies for technical reasons and to learn from your pseudonymized interactions with our website.<br> <a aria-label="learn more about cookies" role="button" tabindex="0" class="cc-link" href="privacy-policy" rel="noopener noreferrer nofollow" target="_blank">To our privacy &amp; cookie policy.</a>
+</span>
+<div class="cc-compliance cc-highlight">
+<a aria-label="deny cookies" role="button" tabindex="0" class="cc-btn cc-deny">Opt-out</a><a aria-label="allow cookies" role="button" tabindex="0" class="cc-btn cc-allow">Okay</a></div>
+</div>
+<div id="__next" data-reactroot=""><main><div id="top-container" class="home relative" data-spy="scroll" data-target="#nav-spy">
+<button class="offcanvas--trigger hamburger hamburger--squeeze d-lg-none flex items-center justify-center" type="button" aria-label="open-nav"><span class="hamburger-box"><span class="hamburger-inner">
+</span>
+</span>
+</button>
+<header class="header absolute top-0 translate-y-0 pb-5 pt-9 transition-transform">
+<div class="pl-6 pr-0"><div class="flex"><div class="flex-auto"><a class="logo" href="/"><img class="block w-52" src="/images/shadowmap_logo_2022_for_dark_bg_cropped.svg" alt="Shadowmap logo">
+</a></div><div class="mr-28 flex justify-end" id="nav-spy"><div class="py-lg-0 py-2">
+<ul class="d-lg-flex hidden items-center space-x-6">
+<li>
+<div class="relative"><button class="text-white focus:outline-none text-xl font-bold rounded-md inline-flex items-center hover:text-white" id="headlessui-popover-button-1" type="button" aria-expanded="false">
+<span>Use cases</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-1 -mb-0.5 h-5 w-5 transition-transform"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div></li><li><a class="font-bold text-xl hover:text-white focus:outline-none rounded-md text-white" href="/vision">Vision</a></li><li><a class="font-bold text-xl hover:text-white focus:outline-none rounded-md text-white" href="/pricing">Pricing</a></li></ul></div></div></div></div></header><div class="offcanvas-nav d-lg-none block"><div class="offcanvas-inner min-h-100 container flex flex-col flex-wrap justify-end py-8"><ul class="mb-7.5 flex-col content-end text-left text-5xl font-bold text-blue-800 md:mb-10"><li class="w-100 px-4"><button class="font-bold flex items-center py-2 w-100"><span>Use cases</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="ml-2 h-6 w-6"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></li><li class="w-100"><a class="block py-2 px-4" href="/vision">Vision</a></li><li class="w-100"><a class="text-end block py-2 px-4" href="/pricing">Pricing</a></li></ul><a class="button inline-flex items-center justify-center button-white button-lg focus:ring-offset-sun-400 block w-full" href="https://app.shadowmap.org/">Launch app<!-- --> </a><div class="mt-8 flex items-center justify-end text-blue-800 fill-blue-800"><a href="https://twitter.com/shadowmap_org" class="ml-4" rel="noopener noreferrer"><svg width="36" height="36" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" class="inline" data-src="https://craft-cms.shadowmap.org/web/dist/images/icons/twitter_361a9abb.svg">
+</script>
+</body>
+</html>
