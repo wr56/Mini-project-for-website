@@ -1,0 +1,39 @@
+mongoose.connect('mongodb://localhost/MOVIELIBRARY', { useNewUrlParser: true, useUnifiedTopology: true })
+.then(() => console.log('Connected to MongoDB...'))
+.catch(err => console.error('Could not connect to MongoDB...', err));
+
+const movieSchema = new mongoose.Schema({
+    sequel: Boolean
+});
+
+const movieClass = mongoose.model('mainClass', mainSchema);
+
+const tenet = new mainClass({
+    sequel: false
+})
+
+const result = tenet.save();
+console.log('Document created', result)
+
+let read= fetchMain_Comparision();
+read.then(function(response) {
+    console.log(response, 'output response')
+})
+
+async function update_Sequel(sequel_new, rating){
+
+    const mainObjects = await mainClass.collection.findOneAndUpdate(
+        {movieName: movieName}, 
+        { 
+            $set: {
+                sequel: sequel_new
+            }
+        }
+        );
+    return mainObjects
+}
+
+async function deleteMain(name){
+    const mainObjects = await maineClass.deleteOne( {mainName: name});
+    console.log('Document Deleted', name)
+}
