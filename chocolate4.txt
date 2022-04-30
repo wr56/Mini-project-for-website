@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+<style>
+*
+body {
+
+ background-image: url("image.jpg");
+ background-color: #white;
+}
+</style>
+
+<body>
+            
+    <h1>Learn to make chocolate</h1>
+    <video width="320" height="240" controls>
+  <source src="https://youtu.be/3pBqyCeGlvw.mp4" type="video/mp4">
+  <source src="https://youtu.be/3pBqyCeGlvw.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+    </video>
+<h2>Recipe</h2>
+<p> Add 2 – 3 inches of water to a small saucepan and bring to a boil over medium high heat. Then set a nonstick saucepan/medium glass, stainless steel or ceramic mixing bowl on top, making sure it’s not touching the water (“double boiler” method). Bring down the heat to medium.To the mixing bowl, add cacao butter and let it melt, takes about 2 – 3 minutes.Remove it from heat. Sift and add cocoa powder, milk powder and icing / powdered sugar (you can sift them beforehand). Add maple syrup, salt and vanilla extract. Stir for 30 seconds or till smooth (do not over stir, its ok if it is a little grainy). Pour carefully into silicone chocolate moulds or into mini cupcake liners. Keep in the refrigerator to set for 30 – 45 minutes (or in the freezer for 20 minutes). Gently remove from mould and enjoy!! Store in fridge or at room temperature (I refrigerated them).
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+</body>
+</html>

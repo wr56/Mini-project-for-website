@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+<style>
+body {
+
+ background-image: url("image.jpg");
+ background-color: #white;
+}
+</style>
+
+<body>
+            
+    <h1>Description of task</h1>
+    <p>Gather all of your ingredients and supplies. By definition, dark chocolate is chocolate that has a higher concentration of cocoa butter and less milk. It’s actually possible to make dark chocolate without any milk at all, so it’s perfect if you can’t have dairy. Along with your ingredients, you're also gonna need:
+<tr>
+<td>
+<ol>grater
+<ol>double boiler
+<ol>metal whisk
+<ol>candy mold
+<ol>Optional yummy extras, like nuts or dried fruits.
+<ol>Heat up the double boiler. In the bottom of the double boiler, fill the pot with an inch (2.5 cm) of water. Place this over medium heat and let the water to come to a boil.
+<ol>Grate and melt the cocoa butter. 
+<ol>Add in the remaining ingredients
+<ol>Pour the chocolate into your mold.
+    <h2>Completed task</h2>
+<tr>
+                    <td colspan="2">
+                        <label>Completed </label>
+                        <br>
+                        <input type="radio" name="boolean" value="True">True
+                        <input type="radio" name="boolean" value="False">False
+                    </td>
+                </tr>
+    <h3>Deadline of the task</h3>
+      <tr>
+                    <td><label>Laste Date</label>
+                        <br>
+                        2 days after assigning..
+                        </td>
+    <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+    </script>
+    <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+    </script>
+</body>
+</html>
